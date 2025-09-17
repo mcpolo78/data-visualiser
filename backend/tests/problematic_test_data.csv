@@ -1,0 +1,17 @@
+product_name,price,quantity,category,date,description,rating,is_active,special_chars,unicode_test
+"Widget A",19.99,10,Electronics,2024-01-15,"Standard product",4.5,true,@#$%^&*(),Basic ASCII
+"Widget ""Quoted"" B",,"",Home & Garden,,"Product with ""quotes"" and, commas",3.2,false,¡¢£¤¥¦§¨©,Çafé Naïve résumé
+Item with	tabs,-999.99,0,,"2024-02-30","Contains	tabs and
+newlines",0,TRUE,<>&"'`,Ψυχή (soul) in Greek
+,null,NULL,null category,invalid-date,"",NaN,1,!@#$%^&*()_+=-{[]}\|;':"",./<>?,العربية (Arabic text)
+"Product, with, commas",0.001,999999999,,2024-13-45,"Infinity and beyond",,2,∞±∑∆∇∂∫∏√∝∞,Emoji test: 🚀🎯💡⚡️
+"Leading spaces   ",   123.45,  -5  ,"  Category with spaces  ",  2024-01-01  ,"  Trailing spaces   ",  4.9  ,  false  ,∴∵∀∃∈∉∋∌⊂⊃⊄⊅,Ѐхample Cyrillic
+UPPERCASE PRODUCT,1e6,1.5e2,UPPERCASE CAT,01/01/2024,ALL CAPS DESCRIPTION,1e-1,True,αβγδεζηθικλμνξοπρστυφχψω,Mathematical α²+β²=γ²
+lowercase product,1E-10,2E+5,lowercase cat,2024/01/01,all lowercase desc,5.0e-1,False,ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞß,àáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ
+"SQL Injection'; DROP TABLE products; --",0/0,sqrt(-1),../../../etc/passwd,<script>alert('xss')</script>,"<img src=x onerror=alert('xss')>",{[object Object]},undefined,\x00\x01\x02\x03\x04\x05\x06\x07\x08,Buffer overflow AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+"Extreme Unicode: 🌍🌎🌏🌐🌑🌒🌓🌔🌕🌖🌗🌘",3.14159265359,-0,💰💎💵💴💶💷💸💳💱💲,⏰⏱⏲⏳⌚️⌛️⏰,"Symbols: ⚠️⚡️❄️🔥💧🌪🌊🌋⛄️❄️",⭐️⭐️⭐️⭐️⭐️,❌,🔤🔡🔠🆔ℹ️🆕🆙🆒🆓🆖🈁,🀄️🎌🏁🏳️🏴🎭🎨🎪🎬🎮🕹🎯🎱🎳
+"Zero Width Characters",123‌‍‎‏,456,Category​﻿,2024-01-01,"Invisible chars: ​‌‍‎‏﻿",4.0,true,"‌‍‎‏​﻿",Text with ‌‍‎‏​﻿ invisible chars
+"Right-to-Left עברית",789,321,العربية RTL,2024-01-01,"Mixed LTR and עברית RTL text",3.5,false,"العربية עברית",مرحبا שלום hello
+"Control Characters",999,\t\n\r\b\f,\0 Category,2024-01-01,"Bell: \a Form feed: \f Backspace: \b",\v,\0,\\\\//\\//\\,Binary data: \x00\x01\xFF
+,,,,,,,,,
+"Final Row",-Infinity,+Infinity,"∞ Category",2999-12-31,"The end is ∞",∞,null,"Final: !@#$%^&*()_+-=[]{}|;':"",./<>?`~",🔚 THE END 🔚

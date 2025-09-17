@@ -1,0 +1,16 @@
+{
+  "name": "data-visualization-api",
+  "description": "FastAPI backend for data visualization application",
+  "image": "heroku/python",
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "env": {
+    "OPENAI_API_KEY": {
+      "description": "OpenAI API key for AI chart suggestions",
+      "required": true
+    }
+  }
+}
